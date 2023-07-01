@@ -14,12 +14,12 @@ public class DevopsPipelineSpringBootApplication {
 
     @PostConstruct
     public void getInitInfo(){
-        logger.info("App started...");
+        logger.info("===> App started... <===");
     }
 
 
     public static void main(String[] args) {
-        logger.info("App executed...");
+        logger.info("===> App executed... <===");
         SpringApplication.run(DevopsPipelineSpringBootApplication.class, args);
     }
 

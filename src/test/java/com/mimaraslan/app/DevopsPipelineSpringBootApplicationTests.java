@@ -12,7 +12,7 @@ class DevopsPipelineSpringBootApplicationTests {
 
     @Test
     void contextLoads() {
-        logger.info("Test executeing...");
+        logger.info("===> Test executeing... <===");
     }
 
 }
