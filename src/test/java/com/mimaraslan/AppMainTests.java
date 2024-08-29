@@ -1,4 +1,4 @@
-package com.mimaraslan.app;
+package com.mimaraslan;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DevopsPipelineSpringBootApplicationTests {
+class AppMainTests {
 
-    static Logger logger = LoggerFactory.getLogger(DevopsPipelineSpringBootApplicationTests.class);
+    static Logger logger = LoggerFactory.getLogger(AppMainTests.class);
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package com.mimaraslan.app;
+package com.mimaraslan;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

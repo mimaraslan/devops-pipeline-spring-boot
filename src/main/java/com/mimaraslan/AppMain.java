@@ -1,4 +1,4 @@
-package com.mimaraslan.app;
+package com.mimaraslan;
 
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
@@ -7,10 +7,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DevopsPipelineSpringBootApplication {
+public class AppMain {
 
 
-    static Logger logger = LoggerFactory.getLogger(DevopsPipelineSpringBootApplication.class);
+    static Logger logger = LoggerFactory.getLogger(AppMain.class);
 
     @PostConstruct
     public void getInitInfo(){
@@ -20,7 +20,7 @@ public class DevopsPipelineSpringBootApplication {
 
     public static void main(String[] args) {
         logger.info("===> App executed... <===");
-        SpringApplication.run(DevopsPipelineSpringBootApplication.class, args);
+        SpringApplication.run(AppMain.class, args);
     }
 
 }
